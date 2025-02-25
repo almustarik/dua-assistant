@@ -186,7 +186,7 @@ function AskQuestion() {
             </div>
 
             {references.length > 0 && (
-              <div className="p-4 rounded-lg bg-emerald-50 dark:bg-emerald-900/30">
+              <div className="hidden p-4 rounded-lg bg-emerald-50 dark:bg-emerald-900/30">
                 <div className="flex items-center mb-3 space-x-2">
                   <BookOpen className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
                   <h3 className="font-medium text-emerald-900 dark:text-emerald-200">
